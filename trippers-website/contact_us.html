@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Contact Us</title>
+  <link rel="icon" href="images/icon2.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic'>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/about_us_style.css">
+  <link rel="stylesheet" href="css/contact_us.css">
+</head>
+<body id="about_us">
+
+  <div class="topnav">
+    <img id="logo" src="images/icon.png" onclick="window.open('index.html', '_self')">
+    <div class="a_navbar">
+    <a class="active" href="index.html" target="_self">Home</a>
+    <a href="#news" target="_self"></a>
+    <a href="contact_us.html" target="_self">Contact Us</a>
+  </div>
+  </div>
+
+  <div class="container">
+      <form id="contact" action="" method="post">
+        <h3>Send Us A Message</h3> <BR>
+        <fieldset>
+          <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Your Email Address" type="email" tabindex="2" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+        </fieldset>
+        <fieldset>
+          <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+        </fieldset>
+        <fieldset>
+          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

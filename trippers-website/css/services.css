@@ -1,0 +1,12 @@
+#services {
+  padding-right: 160px;
+  padding-left: 160px;
+  text-align: justify;
+}
+
+@media all and (max-width:650px) {
+  #services {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
